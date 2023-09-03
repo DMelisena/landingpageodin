@@ -1,0 +1,35 @@
+*{
+    list-style-type:none;
+}
+.header{
+    display:flex;
+    justify-content: space-between;
+    margin:0px auto;
+    padding:0 30px;
+}
+a{
+    text-decoration: none;
+}
+.left-header{
+}
+.phan-logo{
+    max-width:70px;
+    height:auto;
+}
+.header-links{
+    display: flex;
+    gap:30px;
+    
+}
+
+button.continue{
+background: royalblue;
+  border: 1px solid royalblue;
+  color: white;
+}
+button {
+  cursor: pointer;
+  padding: 8px 16px;
+  border-radius: 8px;
+  margin: 8px;
+}
