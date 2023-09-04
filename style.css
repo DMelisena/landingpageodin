@@ -1,12 +1,19 @@
 *{
     list-style-type:none;
 }
+body{
+    margin:0px;
+}
 .header{
     display:flex;
     justify-content: space-between;
     margin:0px auto;
     padding:0 30px;
+    max-width:1800px;
 }
+.content .headline{
+    max-height: 2000px;
+} 
 a{
     text-decoration: none;
 }
@@ -19,9 +26,28 @@ a{
 .header-links{
     display: flex;
     gap:30px;
-    
 }
 
+.content{
+    display:flex;
+    flex-direction: column;
+}
+
+.headline{
+    background:url("img/city-night.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    padding:40px;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
+.headline-text{
+    width:500px;
+    gap:50px;
+}   
 button.continue{
 background: royalblue;
   border: 1px solid royalblue;
@@ -31,5 +57,52 @@ button {
   cursor: pointer;
   padding: 8px 16px;
   border-radius: 8px;
-  margin: 8px;
+}
+.headline-image-container{
+    justify-content: center;
+    align-self: center;
+    flex-shrink: 1;
+
+}
+.headline-image{
+    max-width: 400px;
+}
+h1{
+    color: white;
+    font-size: 16px;
+}
+p{
+    color:white;
+    font-size: 13px;
+
+}
+
+
+.characters{
+    display:flex;
+    gap:16px;
+    justify-content: center;
+    margin: 30px;
+
+}
+.chara-profile{
+    max-width:300px;
+    height:200px;
+}
+
+.quotes{
+    background-color: grey;
+    padding:60px;
+    align-self:center;
+    flex:1 0 auto;
+}
+.joinus{
+    padding:50px;
+    text-align: center;
+}
+.lower{
+    margin-top:20px;
+}
+.contract-title{
+    font-size: 30px;
 }
